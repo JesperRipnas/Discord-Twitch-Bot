@@ -7,4 +7,4 @@ load_dotenv()
 DISCORDTOKEN = os.getenv('DISCORD_TOKEN')
 DISCORDSERVER = os.getenv('DISCORD_GUILD')
 
-dbot.run(DISCORDTOKEN)
+bot.run(DISCORDTOKEN)
